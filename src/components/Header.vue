@@ -15,14 +15,11 @@
 <template>
   <header>
     <Cta />
-    <hr>
     <MainHeader />
-    <hr>
     <Nav />
-    <hr>
   </header>
 </template>  
 
 <style lang="scss" scoped>
-
+  
 </style>
