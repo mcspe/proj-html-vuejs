@@ -1,0 +1,10 @@
+@use '/src/scss/vars' as *;
+@import '/node_modules/@fontsource/roboto/index.css';
+@import '/node_modules/@fontsource/roboto/700.css';
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  background: $primary-dark-blue;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
