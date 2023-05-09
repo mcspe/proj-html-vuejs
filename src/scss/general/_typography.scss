@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h {
+  &1 {
+    font-size: 50px;
+  }
+  &2 {
+    font-size: 40px;
+  }
+  &3 {
+    font-size: 30px;
+  }
+  &4 {
+    font-size: 20px;
+  }
+  &5 {
+    font-size: 16px;
+  }
+}
+
+p, a, li, span {
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}

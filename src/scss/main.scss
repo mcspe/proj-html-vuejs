@@ -1,10 +1,19 @@
-@use '/src/scss/vars' as *;
+@use '/src/scss/general/vars' as *;
+@use '/src/scss/general/typography' as *;
+@use '/src/scss/general/utilities' as *;
 @import '/node_modules/@fontsource/roboto/index.css';
 @import '/node_modules/@fontsource/roboto/700.css';
-@import 'bootstrap/scss/bootstrap';
 
+//  RESET
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//  GENERAL
 body {
   background: $primary-dark-blue;
-  font-family: 'Roboto', sans-serif;
-  color: white;
 }
+
+
