@@ -21,22 +21,22 @@
       }
     },
     computed: {
-      getHeight() {
-        return this.jumboHeight;
-      }
+      // getHeight() {
+      //   return this.jumboHeight;
+      // }
     },
     mounted() {
-      setInterval(() => {
-        const container = document.querySelector('.jumbo-container');
-        this.jumboHeight = container.offsetHeight + 'px';
-        console.log(container.offsetHeight);
-      }, 1000);
+      // setInterval(() => {
+      //   const container = document.querySelector('.jumbo-container');
+      //   this.jumboHeight = container.offsetHeight + 'px';
+      //   console.log(container.offsetHeight);
+      // }, 1000);
     }
   }
 </script>
 
 <template>
-  <section :style="'height:' + getHeight">
+  <section>
     <div 
       class="jumbo-container"
       v-for="(jumbo, i) in JumboMedia"
@@ -62,10 +62,12 @@
 <style lang="scss" scoped>
   @use '../../../scss/general/vars' as *;
   section {
+    z-index: -1;
     position: relative;
-    height: 100%;
+    height: 100vh;
     .jumbo-container {
       position: absolute;
+      height: 100%;
       opacity: 0;
       transition: all .5s linear;
       &.active {

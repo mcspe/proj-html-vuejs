@@ -24,7 +24,7 @@
               {{ item.label }}
               <span v-if="item.dropdownOpt"><font-awesome-icon :icon="['fas', 'caret-down']" /></span>
             </a>
-            <div :class="'drop-box' + i" class="p-3">
+            <div v-if="item.dropdownOpt" :class="'drop-box' + i" class="p-3">
               <ul class="d-flex-col" v-if="item.dropdownOpt">
                 <li 
                   v-for="(dropItem, j) in item.dropdownOpt"
@@ -97,15 +97,15 @@
         }
         [class ^= "inner-drop-box"] {
           display: none;
-        }
-        [class ^= "inner-drop-item"]:hover [class ^= "inner-drop-box"] {
-          display: block;
-          // position: absolute;
-          // top: 10%;
-          // right: calc(-100%);
-          // transform: translateX(-45%);
-          width: 100%;
-          background: $primary-dark-blue;
+          &:hover [class ^= "inner-drop-box"] {
+            display: block;
+            // position: absolute;
+            // top: 10%;
+            // right: calc(-100%);
+            // transform: translateX(-45%);
+            width: 100%;
+            background: $primary-dark-blue;
+          }
         }
       }
     }

@@ -1,6 +1,10 @@
 <script>
+  import SliderCard from './SliderCard.vue';
   export default {
     name: 'NewMovie',
+    components: {
+      SliderCard
+    },
     props: {
       newMovies: Array
     },
@@ -33,6 +37,9 @@
           <button class="hover-green p-2 m-2"><font-awesome-icon :icon="['fas', 'angles-left']" /></button>
           <button class="hover-green p-2 m-2"><font-awesome-icon :icon="['fas', 'angles-right']" /></button>
         </div>
+      </div>
+      <div class="slider-display">
+        <SliderCard />
       </div>
     </div>
   </section>
