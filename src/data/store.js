@@ -107,8 +107,199 @@ export const store = reactive({
   ],
   newMovies: [
     {
-      title: 'Quisque Auctor Movie in Strack'
+      title: 'Quisque Auctor Movie in Strack',
+      category: 'Coming Soon',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 4,
+      views: 995,
+      href: 'movie1'
+    },
+    {
+      title: 'New Movie Quisque in Strack',
+      category: 'Latest Movie',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 8,
+      views: 741,
+      href: 'movie2'
+    },
+    {
+      title: 'Movie Action Garila English',
+      category: 'Top Rating',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 6,
+      views: 372,
+      href: 'movie3'
+    },
+    {
+      title: 'Action Garila English Movie',
+      category: 'TV Series',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 2,
+      views: 303,
+      href: 'movie4'
+    },
+    {
+      title: 'Donec English Action Movie',
+      category: 'Coming Soon',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 6,
+      views: 490,
+      href: 'movie5'
+    },
+    {
+      title: 'English Action Movie in Strack',
+      category: 'Latest Movie',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 10,
+      views: 279,
+      href: 'movie6'
+    },
+    {
+      title: 'Movie Auctor Quisque in Strack',
+      category: 'Top Rating',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 0,
+      views: 302,
+      href: 'movie7'
+    },
+    {
+      title: 'Auctor Movie Quisque in Strack',
+      category: 'TV Series',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 1,
+      views: 348,
+      href: 'movie8'
+    },
+    {
+      title: 'Donec Movie Quisque in Strack',
+      category: 'Coming Soon',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 1,
+      views: 365,
+      href: 'movie9'
+    },
+    {
+      title: 'New Movie Quisque in Strack',
+      category: 'Latest Movie',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 4,
+      views: 507,
+      href: 'movie10'
+    },
+    {
+      title: 'Quisque in Strack New Movie',
+      category: 'Top Rating',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 3,
+      views: 351,
+      href: 'movie11'
+    },
+    {
+      title: 'Nulla Strack New Animate Movie',
+      category: 'TV Series',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 7,
+      views: 336,
+      href: 'movie12'
+    },
+    {
+      title: 'Blue Strack New Animate Movie',
+      category: 'Coming Soon',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 8,
+      views: 425,
+      href: 'movie13'
+    },
+    {
+      title: 'Animate Blue Strack New Movie',
+      category: 'Latest Movie',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 6,
+      views: 361,
+      href: 'movie14'
+    },
+    {
+      title: 'Hurry Animate Blue Strack New Movie',
+      category: 'Top Rating',
+      release: 'February 12, 2016',
+      genres: [
+        'Dramas',
+        'Action Releas'
+      ],
+      length: '2.30.00',
+      ratings: 9,
+      views: 413,
+      href: 'movie15'
     }
-
   ]
 });
