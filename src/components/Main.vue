@@ -2,11 +2,15 @@
   import {store} from '../data/store'
   import Jumbotron from './partials/main/Jumbotron.vue';
   import NewMovie from './partials/main/NewMovie.vue';
+  import MoviePlaylist from './partials/main/MoviePlaylist.vue';
+  import JumboComingSoon from './partials/main/JumboComingSoon.vue';
   export default {
     name: 'Main',
     components: {
       Jumbotron,
-      NewMovie
+      NewMovie,
+      MoviePlaylist,
+      JumboComingSoon
     },
     data() {
       return {
@@ -20,6 +24,9 @@
   <main>
     <Jumbotron :JumboMedia="store.jumbotron" />
     <NewMovie :movies="store.newMovies" />
+    <MoviePlaylist :movies="store.newMovies" />
+    <JumboComingSoon />
+    
   </main>
 </template>  
 

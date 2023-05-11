@@ -7,20 +7,6 @@
     },
     props: {
       movies: Array
-    },
-    data() {
-      return {
-        
-      }
-    },
-    methods: {
-      
-    },
-    computed: {
-      
-    },
-    mounted() {
-      
     }
   }
 </script>
@@ -89,6 +75,7 @@
         & .movie-card.active {
           display: flex;
           width: 35%;
+          scale: 1.1;
         }
         & .movie-card.item2 {
           width: 30%;

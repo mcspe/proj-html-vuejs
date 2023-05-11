@@ -117,7 +117,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 4,
       views: 995,
-      href: 'movie1.jpg'
+      href: 'movie1.jpg',
+      hrefThumb: 'movie1-300x300.jpg'
     },
     {
       title: 'New Movie Quisque in Strack',
@@ -130,7 +131,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 8,
       views: 741,
-      href: 'movie2.jpg'
+      href: 'movie2.jpg',
+      hrefThumb: 'movie2-300x300.jpg'
     },
     {
       title: 'Movie Action Garila English',
@@ -143,7 +145,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 6,
       views: 372,
-      href: 'movie3.jpg'
+      href: 'movie3.jpg',
+      hrefThumb: 'movie3-300x300.jpg'
     },
     {
       title: 'Action Garila English Movie',
@@ -156,7 +159,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 2,
       views: 303,
-      href: 'movie4.jpg'
+      href: 'movie4.jpg',
+      hrefThumb: 'movie4-300x300.jpg'
     },
     {
       title: 'Donec English Action Movie',
@@ -169,7 +173,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 6,
       views: 490,
-      href: 'movie5.jpg'
+      href: 'movie5.jpg',
+      hrefThumb: 'movie5-300x300.jpg'
     },
     {
       title: 'English Action Movie in Strack',
@@ -182,7 +187,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 10,
       views: 279,
-      href: 'movie6.jpg'
+      href: 'movie6.jpg',
+      hrefThumb: 'movie6-300x300.jpg'
     },
     {
       title: 'Movie Auctor Quisque in Strack',
@@ -195,7 +201,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 0,
       views: 302,
-      href: 'movie7.jpg'
+      href: 'movie7.jpg',
+      hrefThumb: 'movie7-300x300.jpg'
     },
     {
       title: 'Auctor Movie Quisque in Strack',
@@ -208,7 +215,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 1,
       views: 348,
-      href: 'movie8.jpg'
+      href: 'movie8.jpg',
+      hrefThumb: 'movie8-300x300.jpg'
     },
     {
       title: 'Donec Movie Quisque in Strack',
@@ -221,7 +229,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 1,
       views: 365,
-      href: 'movie9.jpg'
+      href: 'movie9.jpg',
+      hrefThumb: 'movie9-300x300.jpg'
     },
     {
       title: 'New Movie Quisque in Strack',
@@ -234,7 +243,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 4,
       views: 507,
-      href: 'movie10.jpg'
+      href: 'movie10.jpg',
+      hrefThumb: 'movie10-300x300.jpg'
     },
     {
       title: 'Quisque in Strack New Movie',
@@ -273,7 +283,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 8,
       views: 425,
-      href: 'movie13.jpg'
+      href: 'movie13.jpg',
+      hrefThumb: 'movie13-300x300.jpg'
     },
     {
       title: 'Animate Blue Strack New Movie',
@@ -286,7 +297,8 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 6,
       views: 361,
-      href: 'movie14.jpg'
+      href: 'movie14.jpg',
+      hrefThumb: 'movie14-300x300.jpg'
     },
     {
       title: 'Hurry Animate Blue Strack New Movie',
