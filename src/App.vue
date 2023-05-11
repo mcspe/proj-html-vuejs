@@ -20,7 +20,4 @@
 
 <style lang="scss">
   @use './scss/main.scss';
-  body {
-    padding-bottom: 200px;
-  }
 </style>

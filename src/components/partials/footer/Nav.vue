@@ -15,7 +15,7 @@
 <template>
   <section>
     <div class="overlay-mask"></div>
-    <div class="container d-flex-j-between my-5 py-5">
+    <div class="container d-flex-j-between mt-5 py-5">
       <div 
         class="sections my-5 py-5"
         v-for="(section, i) in info"
@@ -80,6 +80,8 @@
   @use '../../../scss/general/vars' as *;
   section {
     background: url('/ft-bg.jpg');
+    background-size: cover;
+    background-position: center;
     position: relative;
     .overlay-mask {
       position: absolute;
