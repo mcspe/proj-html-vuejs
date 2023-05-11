@@ -6,6 +6,7 @@
   import JumboComingSoon from './partials/main/JumboComingSoon.vue';
   import MovieNavigator from './partials/main/MovieNavigator.vue';
   import LatestNews from './partials/main/LatestNews.vue';
+  import Subscribe from './partials/main/Subscribe.vue';
   export default {
     name: 'Main',
     components: {
@@ -14,7 +15,8 @@
       MoviePlaylist,
       JumboComingSoon,
       MovieNavigator,
-      LatestNews
+      LatestNews,
+      Subscribe
     },
     data() {
       return {
@@ -32,6 +34,7 @@
     <JumboComingSoon />
     <MovieNavigator :movies="store.newMovies" />
     <LatestNews :news="store.news" />
+    <Subscribe />
   </main>
 </template>  
 
