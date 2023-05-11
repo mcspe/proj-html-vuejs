@@ -24,7 +24,7 @@
             :key="i"
             
             :class="social">
-            <font-awesome-icon v-if="social != 'fa-pinterest'" :icon="['fab', social]" class="social-icon mx-2" />
+            <font-awesome-icon :icon="['fab', social]" class="social-icon mx-2" />
           </a>
         </div>
       </div>

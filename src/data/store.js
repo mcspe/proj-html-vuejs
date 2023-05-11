@@ -7,8 +7,7 @@ export const store = reactive({
       'fa-twitter',
       'fa-linkedin-in',
       'fa-instagram',
-      'fa-google-plus-g',
-      'fa-pinterest'
+      'fa-google-plus-g'
     ],
     logo: '/cropped-logo.png',
     selectOptions: [
@@ -318,27 +317,93 @@ export const store = reactive({
     {
       title: 'Actor the Concept Movie',
       href: 'blog1-570x570.jpg',
-      date: 'April 14, 2020',
+      date: 'April 14, 2020'
     },
     {
       title: 'Actor the Concept Movie',
       href: 'blog2-570x570.jpg',
-      date: 'April 14, 2020',
+      date: 'April 14, 2020'
     },
     {
       title: 'Actor the Concept Movie',
       href: 'blog3-570x570.jpg',
-      date: 'April 14, 2020',
+      date: 'April 14, 2020'
     },
     {
       title: 'Actor the Concept Movie',
       href: 'blog4-570x570.jpg',
-      date: 'April 14, 2020',
+      date: 'April 14, 2020'
     },
     {
       title: 'Actor the Concept Movie',
       href: 'blog5-570x570.jpg',
-      date: 'April 14, 2020',
+      date: 'April 14, 2020'
     },
+  ],
+  footerData: [
+    {
+      type: 'text',
+      title: 'About Us',
+      content: {
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi distinctio sit sunt. Ab, ad repudiandae! Quia, ea laboriosam reiciendis cupiditate maiores rerum ducimus possimus.',
+        socialIcons: [
+          'fa-facebook-f',
+          'fa-twitter',
+          'fa-linkedin-in',
+          'fa-instagram',
+          'fa-pinterest'
+        ],
+      }
+    },
+    {
+      type: 'nav',
+      title: 'Movie Category',
+      content: {
+        labels: [
+          'English New Movie',
+          'Hindi All Movie',
+          'Latest Tamil Movie',
+          'New Top Rating Movie',
+          'Hornn New Movie',
+          'Animation New Movie'
+        ]
+      }
+    },
+    {
+      type: 'nav',
+      title: 'Information',
+      content: {
+        labels: [
+          'Youtube Video Post',
+          'Actor Information', 
+          'New Promotion',
+          'Latest Movie in English',
+          'Latest Film Product'
+        ]
+      }
+    },
+    {
+      type: 'display',
+      title: 'Recent Post',
+      content: {
+        posts: [
+          {
+            title: 'Actor the Concept Movie',
+            href: 'blog1-570x570.jpg',
+            date: 'April 14, 2020'
+          },
+          {
+            title: 'Actor the Concept Movie',
+            href: 'blog2-570x570.jpg',
+            date: 'April 14, 2020'
+          },
+          {
+            title: 'Actor the Concept Movie',
+            href: 'blog3-570x570.jpg',
+            date: 'April 14, 2020'
+          }
+        ]
+      }
+    }
   ]
 });

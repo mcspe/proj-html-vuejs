@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <section>
+  <section class="mb-5 pb-5">
     <div class="container my-5 py-5">
       <div class="form d-flex-col-a-center my-5 py-5">
         <div class="input d-flex-j-between-a-center p-5">
