@@ -6,7 +6,7 @@
       SliderCard
     },
     props: {
-      newMovies: Array
+      movies: Array
     },
     data() {
       return {
@@ -38,8 +38,14 @@
           <button class="hover-green p-2 m-2"><font-awesome-icon :icon="['fas', 'angles-right']" /></button>
         </div>
       </div>
-      <div class="slider-display">
-        <SliderCard />
+      <div class="slider-display d-flex-j-between-a-center py-5 my-5">
+        <div 
+          v-for="(movie, i) in movies"
+          :key="i"
+          class="movie-card d-flex-j-center-a-center my-5"
+          :class="['item' + i, {'active' : ((i===1) || (i === 2) || (i===3))}]">
+          <SliderCard :movie="movie" />
+        </div>
       </div>
     </div>
   </section>
@@ -70,6 +76,23 @@
               color: white;
             }
           }
+        }
+      }
+      .slider-display {
+        position: relative;
+        width: 100%;
+        flex-wrap: wrap;
+
+        & .movie-card {
+          display: none;
+        }
+        & .movie-card.active {
+          display: flex;
+          width: 35%;
+        }
+        & .movie-card.item2 {
+          width: 30%;
+          scale: 1.3;
         }
       }
     }

@@ -19,7 +19,7 @@
 <template>
   <main>
     <Jumbotron :JumboMedia="store.jumbotron" />
-    <NewMovie :NewMovies="store.newMovies" />
+    <NewMovie :movies="store.newMovies" />
   </main>
 </template>  
 

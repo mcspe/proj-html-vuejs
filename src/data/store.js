@@ -117,7 +117,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 4,
       views: 995,
-      href: 'movie1'
+      href: 'movie1.jpg'
     },
     {
       title: 'New Movie Quisque in Strack',
@@ -130,7 +130,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 8,
       views: 741,
-      href: 'movie2'
+      href: 'movie2.jpg'
     },
     {
       title: 'Movie Action Garila English',
@@ -143,7 +143,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 6,
       views: 372,
-      href: 'movie3'
+      href: 'movie3.jpg'
     },
     {
       title: 'Action Garila English Movie',
@@ -156,7 +156,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 2,
       views: 303,
-      href: 'movie4'
+      href: 'movie4.jpg'
     },
     {
       title: 'Donec English Action Movie',
@@ -169,7 +169,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 6,
       views: 490,
-      href: 'movie5'
+      href: 'movie5.jpg'
     },
     {
       title: 'English Action Movie in Strack',
@@ -182,7 +182,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 10,
       views: 279,
-      href: 'movie6'
+      href: 'movie6.jpg'
     },
     {
       title: 'Movie Auctor Quisque in Strack',
@@ -195,7 +195,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 0,
       views: 302,
-      href: 'movie7'
+      href: 'movie7.jpg'
     },
     {
       title: 'Auctor Movie Quisque in Strack',
@@ -208,7 +208,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 1,
       views: 348,
-      href: 'movie8'
+      href: 'movie8.jpg'
     },
     {
       title: 'Donec Movie Quisque in Strack',
@@ -221,7 +221,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 1,
       views: 365,
-      href: 'movie9'
+      href: 'movie9.jpg'
     },
     {
       title: 'New Movie Quisque in Strack',
@@ -234,7 +234,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 4,
       views: 507,
-      href: 'movie10'
+      href: 'movie10.jpg'
     },
     {
       title: 'Quisque in Strack New Movie',
@@ -247,7 +247,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 3,
       views: 351,
-      href: 'movie11'
+      href: 'movie11.jpg'
     },
     {
       title: 'Nulla Strack New Animate Movie',
@@ -260,7 +260,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 7,
       views: 336,
-      href: 'movie12'
+      href: 'movie12.jpg'
     },
     {
       title: 'Blue Strack New Animate Movie',
@@ -273,7 +273,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 8,
       views: 425,
-      href: 'movie13'
+      href: 'movie13.jpg'
     },
     {
       title: 'Animate Blue Strack New Movie',
@@ -286,7 +286,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 6,
       views: 361,
-      href: 'movie14'
+      href: 'movie14.jpg'
     },
     {
       title: 'Hurry Animate Blue Strack New Movie',
@@ -299,7 +299,7 @@ export const store = reactive({
       length: '2.30.00',
       ratings: 9,
       views: 413,
-      href: 'movie15'
+      href: 'movie15.jpg'
     }
   ]
 });
