@@ -313,5 +313,32 @@ export const store = reactive({
       views: 413,
       href: 'movie15.jpg'
     }
+  ],
+  news: [
+    {
+      title: 'Actor the Concept Movie',
+      href: 'blog1-570x570.jpg',
+      date: 'April 14, 2020',
+    },
+    {
+      title: 'Actor the Concept Movie',
+      href: 'blog2-570x570.jpg',
+      date: 'April 14, 2020',
+    },
+    {
+      title: 'Actor the Concept Movie',
+      href: 'blog3-570x570.jpg',
+      date: 'April 14, 2020',
+    },
+    {
+      title: 'Actor the Concept Movie',
+      href: 'blog4-570x570.jpg',
+      date: 'April 14, 2020',
+    },
+    {
+      title: 'Actor the Concept Movie',
+      href: 'blog5-570x570.jpg',
+      date: 'April 14, 2020',
+    },
   ]
 });

@@ -71,6 +71,10 @@
 
         & .movie-card {
           display: none;
+          &>* {
+            border-radius: 2rem;
+            overflow: hidden;
+          }
         }
         & .movie-card.active {
           display: flex;

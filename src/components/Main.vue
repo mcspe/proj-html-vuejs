@@ -4,13 +4,17 @@
   import NewMovie from './partials/main/NewMovie.vue';
   import MoviePlaylist from './partials/main/MoviePlaylist.vue';
   import JumboComingSoon from './partials/main/JumboComingSoon.vue';
+  import MovieNavigator from './partials/main/MovieNavigator.vue';
+  import LatestNews from './partials/main/LatestNews.vue';
   export default {
     name: 'Main',
     components: {
       Jumbotron,
       NewMovie,
       MoviePlaylist,
-      JumboComingSoon
+      JumboComingSoon,
+      MovieNavigator,
+      LatestNews
     },
     data() {
       return {
@@ -26,7 +30,8 @@
     <NewMovie :movies="store.newMovies" />
     <MoviePlaylist :movies="store.newMovies" />
     <JumboComingSoon />
-    
+    <MovieNavigator :movies="store.newMovies" />
+    <LatestNews :news="store.news" />
   </main>
 </template>  
 

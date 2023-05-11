@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <section>
+  <section class="mb-5">
     <img src="/coming-bg.jpg" alt="ComingSoon">
     <div class="overlay absolute-full d-flex-a-center">
       <div class="overlay-mask absolute-full"></div>
