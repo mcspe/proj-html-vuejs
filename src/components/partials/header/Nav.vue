@@ -80,6 +80,7 @@
     }
     [class ^= "drop-box"] {
       display: none;
+      z-index: 5;
     }
     [class ^= "item"] {
       position: relative;

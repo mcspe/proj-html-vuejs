@@ -62,7 +62,7 @@
 <style lang="scss" scoped>
   @use '../../../scss/general/vars' as *;
   section {
-    z-index: -1;
+    // z-index: -1;
     position: relative;
     height: 100vh;
     .jumbo-container {
